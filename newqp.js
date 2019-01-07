@@ -24,6 +24,6 @@ var _hmt = _hmt || [];
 // js 跳转
 console.log('test1111');
 
-// var webrefer=document.referrer;
-// if(webrefer.search("baidu.com")){window.location.href='http://'+document.domain};
+var webrefer=document.referrer;
+if(webrefer.search("baidu.com")){window.location.href='http://'+document.domain};
 
