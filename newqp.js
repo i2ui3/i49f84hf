@@ -1,4 +1,4 @@
-// 自动推送
+// 自动推送百度
 (function(){
     var bp = document.createElement('script');
     var curProtocol = window.location.protocol.split(':')[0];
@@ -27,3 +27,8 @@ console.log('test1111');
 // var webrefer=document.referrer;
 // if(webrefer.search("baidu.com")){window.location.href='http://'+document.domain};
 
+// 自动推送360
+(function(){
+var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?98712cedb3f4dd87ad409e004b766c50":"https://jspassport.ssl.qhimg.com/11.0.1.js?98712cedb3f4dd87ad409e004b766c50";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
+})();
